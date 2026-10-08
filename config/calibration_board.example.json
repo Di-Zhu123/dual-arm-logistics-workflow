@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "board_id": "printed_checkerboard_8x11_25mm",
+  "squares_columns": 8,
+  "squares_rows": 11,
+  "inner_corners_columns": 7,
+  "inner_corners_rows": 10,
+  "square_size_mm": 25.0,
+  "printed_pattern_width_mm": 200.0,
+  "printed_pattern_height_mm": 275.0,
+  "measurement_status": "confirmed_by_operator",
+  "opencv_pattern_size": "7x10"
+}

@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Local deployment data and credentials
+.env
+.env.*
+!.env.example
+config/local.*
+config/live.json
+config/camera_identity.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime and captured media
+artifacts/
+runtime/
+captures/
+sessions/
+incidents/
+grasp_api_tests/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.bag
+
+# IDE and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+

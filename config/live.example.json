@@ -1,0 +1,36 @@
+{
+  "execution_mode": "offline",
+  "hardware_execution_enabled": false,
+  "api_host": "127.0.0.1",
+  "api_ports": {
+    "detection": 65444,
+    "segmentation": 65471,
+    "simulation": 65078,
+    "grasp": 65432
+  },
+  "cameras": {
+    "left": {
+      "device_id": 1,
+      "serial_number": null,
+      "world_from_camera": "dynamic_from_arm_state"
+    },
+    "head": {
+      "device_id": 0,
+      "serial_number": null,
+      "world_from_camera": null
+    },
+    "right": {
+      "device_id": 2,
+      "serial_number": null,
+      "world_from_camera": "dynamic_from_arm_state"
+    }
+  },
+  "safety": {
+    "maximum_snapshot_age_ms": 2000,
+    "maximum_camera_skew_ms": 250,
+    "minimum_clearance_m": 0.015,
+    "maximum_joint_velocity_deg_s": 30.0,
+    "start_joint_tolerance_deg": 0.5,
+    "plan_ttl_s": 300
+  }
+}
